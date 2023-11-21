@@ -10,6 +10,7 @@ datasource db {
   directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
 }
 
+
 model Post {
   id        String     @default(cuid()) @id
   title     String
@@ -28,3 +29,4 @@ model User {
   posts         Post[]
   @@map(name: "users")
 }
+
