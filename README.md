@@ -10,3 +10,5 @@ This is the starter project for the fullstack tutorial with Next.js and Prisma. 
 =======
 # h-y-blogr-nextjs-prisma
 >>>>>>> origin/main
+
+
