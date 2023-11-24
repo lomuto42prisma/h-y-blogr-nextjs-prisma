@@ -52,7 +52,7 @@ const Drafts: React.FC<Props> = (props) => {
       <div className="page">
         <h1>My Drafts</h1>
         <main>
-          {props.drafts.map((post) => (
+          {props.drafts.map((post: PostProps) => (
             <div key={post.id} className="post">
               <Post post={post} />
             </div>
