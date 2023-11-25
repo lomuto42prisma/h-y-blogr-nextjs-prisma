@@ -1,4 +1,4 @@
-
+//
 function Error({ statusCode }) {
     return (
       <p>
@@ -16,4 +16,3 @@ function Error({ statusCode }) {
   
   export default Error
 
-  
