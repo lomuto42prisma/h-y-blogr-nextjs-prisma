@@ -17,12 +17,14 @@ export const getStaticProps: GetStaticProps = async () => {
     },
   });
   return { 
-    props: { feed } };
+    props: { feed },
+    revalidate: 10,
+   };
 };
 
 type Props = {
   feed: PostProps[]
-}
+};
 
 const Blog: React.FC<Props> = (props) => {
   return (
